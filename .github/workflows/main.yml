@@ -31,8 +31,9 @@ jobs:
 
     - name: Construção da imagem Docker
       uses: docker/build-push-action@v6.13.0
-      with:   
-        file: Dockerfile
+      with: 
+        src: ./
+        file: ./Dockerfile
         push: true
         tags: 
           jessemenegat/aula-conversao-temperatura:v1
