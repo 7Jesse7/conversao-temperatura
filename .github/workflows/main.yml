@@ -37,7 +37,6 @@ jobs:
         push: true
         tags: 
           jessemenegat/aula-conversao-temperatura:v1
-          jessemenegat/aula-conversao-temperatura:latest
             
         
         
