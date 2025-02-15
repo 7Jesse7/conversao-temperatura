@@ -30,13 +30,13 @@ jobs:
       run: mocha test/convert.js
 
     - name: Construção da imagem Docker
-      uses: docker/build-push-action@v6.13.0
+      uses: docker/build-push-action@v2.9.0
       with: 
         src: ./
         file: ./Dockerfile
         push: true
         tags:
-          jessemenegat/aula-conversao-temperatura:v1;
+          jessemenegat/aula-conversao-temperatura:v1
           jessemenegat/aula-conversao-temperatura:latest  
         
         
